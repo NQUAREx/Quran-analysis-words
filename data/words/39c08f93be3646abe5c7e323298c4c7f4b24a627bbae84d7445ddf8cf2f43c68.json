@@ -1,0 +1,22 @@
+{
+  "ambiguity": null,
+  "completed_steps": [],
+  "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "external_facts": [],
+  "frequency": 17,
+  "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
+  "hypotheses": [],
+  "meaning_source": null,
+  "meanings": [],
+  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "occurrences": "data/occurrences.csv#word_id=39c08f93be3646abe5c7e323298c4c7f4b24a627bbae84d7445ddf8cf2f43c68",
+  "open_questions": [],
+  "profile_id": "unvocalized_nfc_v1_numbered_verses",
+  "record_version": 1,
+  "research_status": "Исследование не завершено",
+  "sources": [],
+  "third_column": "Исследование не завершено",
+  "updated_at": "2026-10-09T11:33:25+00:00",
+  "word": "مغفرة",
+  "word_id": "39c08f93be3646abe5c7e323298c4c7f4b24a627bbae84d7445ddf8cf2f43c68"
+}

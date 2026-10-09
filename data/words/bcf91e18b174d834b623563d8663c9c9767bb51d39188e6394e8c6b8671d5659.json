@@ -1,0 +1,22 @@
+{
+  "ambiguity": null,
+  "completed_steps": [],
+  "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "external_facts": [],
+  "frequency": 2,
+  "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
+  "hypotheses": [],
+  "meaning_source": null,
+  "meanings": [],
+  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "occurrences": "data/occurrences.csv#word_id=bcf91e18b174d834b623563d8663c9c9767bb51d39188e6394e8c6b8671d5659",
+  "open_questions": [],
+  "profile_id": "unvocalized_nfc_v1_numbered_verses",
+  "record_version": 1,
+  "research_status": "Исследование не завершено",
+  "sources": [],
+  "third_column": "Исследование не завершено",
+  "updated_at": "2026-10-09T11:33:26+00:00",
+  "word": "عبادا",
+  "word_id": "bcf91e18b174d834b623563d8663c9c9767bb51d39188e6394e8c6b8671d5659"
+}

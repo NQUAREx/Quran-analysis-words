@@ -1,0 +1,22 @@
+{
+  "ambiguity": null,
+  "completed_steps": [],
+  "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "external_facts": [],
+  "frequency": 1,
+  "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
+  "hypotheses": [],
+  "meaning_source": null,
+  "meanings": [],
+  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "occurrences": "data/occurrences.csv#word_id=24a61adc53f5d65b6d58befbf2559068eced9e37e8bc9e4e44e450d2287464d2",
+  "open_questions": [],
+  "profile_id": "unvocalized_nfc_v1_numbered_verses",
+  "record_version": 1,
+  "research_status": "Исследование не завершено",
+  "sources": [],
+  "third_column": "Исследование не завершено",
+  "updated_at": "2026-10-09T11:33:33+00:00",
+  "word": "ولرسوله",
+  "word_id": "24a61adc53f5d65b6d58befbf2559068eced9e37e8bc9e4e44e450d2287464d2"
+}

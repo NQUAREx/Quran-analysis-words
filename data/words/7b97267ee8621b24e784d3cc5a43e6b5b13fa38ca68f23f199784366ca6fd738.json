@@ -1,0 +1,22 @@
+{
+  "ambiguity": null,
+  "completed_steps": [],
+  "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "external_facts": [],
+  "frequency": 4,
+  "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
+  "hypotheses": [],
+  "meaning_source": null,
+  "meanings": [],
+  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "occurrences": "data/occurrences.csv#word_id=7b97267ee8621b24e784d3cc5a43e6b5b13fa38ca68f23f199784366ca6fd738",
+  "open_questions": [],
+  "profile_id": "unvocalized_nfc_v1_numbered_verses",
+  "record_version": 1,
+  "research_status": "Исследование не завершено",
+  "sources": [],
+  "third_column": "Исследование не завершено",
+  "updated_at": "2026-10-09T11:33:27+00:00",
+  "word": "الجهر",
+  "word_id": "7b97267ee8621b24e784d3cc5a43e6b5b13fa38ca68f23f199784366ca6fd738"
+}

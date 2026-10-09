@@ -1,0 +1,22 @@
+{
+  "ambiguity": null,
+  "completed_steps": [],
+  "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "external_facts": [],
+  "frequency": 1,
+  "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
+  "hypotheses": [],
+  "meaning_source": null,
+  "meanings": [],
+  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "occurrences": "data/occurrences.csv#word_id=c41b7477a8ffeea50afc25f66a3f5ac2943dd568eb7e72521a2f29430c1e915a",
+  "open_questions": [],
+  "profile_id": "unvocalized_nfc_v1_numbered_verses",
+  "record_version": 1,
+  "research_status": "Исследование не завершено",
+  "sources": [],
+  "third_column": "Исследование не завершено",
+  "updated_at": "2026-10-09T11:33:28+00:00",
+  "word": "ذرأنا",
+  "word_id": "c41b7477a8ffeea50afc25f66a3f5ac2943dd568eb7e72521a2f29430c1e915a"
+}

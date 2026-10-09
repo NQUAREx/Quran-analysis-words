@@ -1,0 +1,52 @@
+{
+  "ambiguity": "Форма включает обычный день и эсхатологические контексты (например, 1:4); не все вхождения обозначают земные сутки.",
+  "completed_steps": [
+    "Просмотрены контексты формы в индексе, включая 1:4 и 2:254.",
+    "Проверен внешний показатель NASA и точное число."
+  ],
+  "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "external_facts": [
+    {
+      "fact": "Продолжительность земного года",
+      "source_url": "https://science.nasa.gov/earth/facts/",
+      "unit": "суток",
+      "value": 365.25
+    }
+  ],
+  "frequency": 217,
+  "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
+  "hypotheses": [
+    {
+      "caveat": "Внешнее число относится к продолжительности земного года в сутках, а корпусная частота — к одной словоформе; другие формы не добавляются.",
+      "claim": "Частота формы يوم равна числу суток в земном году.",
+      "external_value": 365.25,
+      "observed_frequency": 217,
+      "result": "не совпало"
+    }
+  ],
+  "meaning_source": null,
+  "meanings": [
+    "день",
+    "День суда и иные контекстные употребления"
+  ],
+  "next_action": null,
+  "occurrences": "data/occurrences.csv#word_id=bc7d7606ee30c9924f9a29906a6fd26b92f4c8517e6246c72b3dd5f4941977d4",
+  "open_questions": [],
+  "profile_id": "unvocalized_nfc_v1_numbered_verses",
+  "record_version": 2,
+  "research_status": "Соответствие не воспроизведено",
+  "sources": [
+    {
+      "accessed": "2026-10-09",
+      "excerpt": "Length of Year 365.25 days",
+      "page_sha256": "4b13f71ac69ad67c2d63b08c6a212074f4d05472e9fa2fb20b55ff1e29055343",
+      "publisher": "NASA Science",
+      "section": "Quick Facts",
+      "url": "https://science.nasa.gov/earth/facts/"
+    }
+  ],
+  "third_column": "Соответствие не воспроизведено. 217 употреблений формы يوم не равны 365,25 суткам земного года (NASA: https://science.nasa.gov/earth/facts/). Среди контекстов есть День суда (1:4); частота одной формы не равна числу календарных дней.",
+  "updated_at": "2026-10-09T11:36:35+00:00",
+  "word": "يوم",
+  "word_id": "bc7d7606ee30c9924f9a29906a6fd26b92f4c8517e6246c72b3dd5f4941977d4"
+}

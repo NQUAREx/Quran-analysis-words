@@ -1,0 +1,51 @@
+{
+  "ambiguity": "Форма встречается в выражении شهر رمضان (2:185), как мера времени (34:12) и в ألف شهر (97:3).",
+  "completed_steps": [
+    "Проверены все 4 вхождения: 2:185, два в 34:12 и 97:3.",
+    "Проверена структура исламского календаря во внешнем источнике."
+  ],
+  "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "external_facts": [
+    {
+      "fact": "Число месяцев в исламском календаре",
+      "source_url": "https://www.timeanddate.com/calendar/islamic-calendar.html",
+      "unit": "месяцев",
+      "value": 12
+    }
+  ],
+  "frequency": 4,
+  "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
+  "hypotheses": [
+    {
+      "caveat": "Другие словоформы месяца не прибавляются к этому ключу.",
+      "claim": "Частота формы شهر равна числу месяцев в исламском году.",
+      "external_value": 12,
+      "observed_frequency": 4,
+      "result": "не совпало"
+    }
+  ],
+  "meaning_source": null,
+  "meanings": [
+    "месяц как календарная или временная единица"
+  ],
+  "next_action": null,
+  "occurrences": "data/occurrences.csv#word_id=bbcf7363a1f288c73c33d4510511e7926c08cea6d6cbcdf545f9441ec6666d9f",
+  "open_questions": [],
+  "profile_id": "unvocalized_nfc_v1_numbered_verses",
+  "record_version": 2,
+  "research_status": "Соответствие не воспроизведено",
+  "sources": [
+    {
+      "accessed": "2026-10-09",
+      "excerpt": "The Islamic calendar has 12 months with 29 or 30 days.",
+      "page_sha256": "649467e36fee7818e49bb0b2a86ebfdec06813b2c8dc73d7d9a18c5b22b079c9",
+      "publisher": "timeanddate.com",
+      "section": "Calendar Structure",
+      "url": "https://www.timeanddate.com/calendar/islamic-calendar.html"
+    }
+  ],
+  "third_column": "Соответствие не воспроизведено. Форма شهر встречается 4 раза, а исламский календарь содержит 12 месяцев (https://www.timeanddate.com/calendar/islamic-calendar.html, раздел Calendar Structure). Это календарное соглашение; другие формы не включены.",
+  "updated_at": "2026-10-09T11:36:35+00:00",
+  "word": "شهر",
+  "word_id": "bbcf7363a1f288c73c33d4510511e7926c08cea6d6cbcdf545f9441ec6666d9f"
+}
