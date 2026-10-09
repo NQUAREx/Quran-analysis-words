@@ -1,22 +1,51 @@
 {
   "ambiguity": null,
-  "completed_steps": [],
+  "completed_steps": [
+    "Все вхождения сверены по POS QAC v0.4; проверена применимость внешнего количественного сравнения."
+  ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [],
   "frequency": 65,
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "hypotheses": [],
-  "meaning_source": null,
-  "meanings": [],
-  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "hypotheses": [
+    {
+      "id": "closed_class_external_quantity_screen",
+      "question": "Есть ли независимая измеримая внешняя величина, непосредственно определяемая этой грамматической функцией?",
+      "result": "Функции слова не задают фиксированного внешнего числа; числовой кандидат не сформулирован.",
+      "scope": "Все вхождения этой словоформы в основном профиле."
+    }
+  ],
+  "meaning_source": "Quranic Arabic Corpus v0.4, aligned by verse and position",
+  "meanings": [
+    "личное/притяжательное местоимение"
+  ],
+  "next_action": null,
   "occurrences": "data/occurrences.csv#word_id=fa37288724c6aa3ed570a3f56ae5da9ebab7216df331a30239d318ed79e69f0d",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 1,
-  "research_status": "Исследование не завершено",
-  "sources": [],
-  "third_column": "Исследование не завершено",
-  "updated_at": "2026-10-09T11:33:24+00:00",
+  "record_version": 2,
+  "research_status": "Проверяемое соответствие не найдено",
+  "sources": [
+    {
+      "local_alignment": "data/qac_alignment.csv",
+      "pos_counts": {
+        "PRON": 65
+      },
+      "publisher": "Quranic Arabic Corpus, Kais Dukes",
+      "sample_locations": [
+        "2:11:10",
+        "2:14:15",
+        "2:102:31",
+        "3:52:13",
+        "5:18:4"
+      ],
+      "source_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "url": "https://corpus.quran.com/download/",
+      "version": "0.4"
+    }
+  ],
+  "third_column": "Проверяемое соответствие не найдено. Все 65 вхождений — служебные формы или местоимения по QAC v0.4 (личное/притяжательное местоимение; https://corpus.quran.com/download/). Их грамматическая функция не задаёт независимой измеримой величины для сравнения с частотой.",
+  "updated_at": "2026-10-09T12:36:09+00:00",
   "word": "نحن",
   "word_id": "fa37288724c6aa3ed570a3f56ae5da9ebab7216df331a30239d318ed79e69f0d"
 }

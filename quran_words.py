@@ -250,6 +250,11 @@ def export():
         row[0].font = Font(name='Amiri', size=13)
         row[0].alignment = Alignment(horizontal='right', readingOrder=2)
         row[2].alignment = Alignment(wrap_text=True, vertical='top')
+        url = re.search(r'https?://[^\s)؛،]+', str(row[2].value))
+        if url:
+            row[2].hyperlink = url.group(0).rstrip('.,')
+            row[2].font = Font(color='155E91', underline='single')
+            sheet.row_dimensions[row[2].row].height = 45
     out = DATA / 'quran_word_counts.xlsx'
     tmp = out.with_name(out.stem + '.tmp.xlsx')
     book.save(tmp)
@@ -263,6 +268,7 @@ def export():
         f'Аятов: {manifest["numbered_verses"]}; токенов: {manifest["token_count"]}; '
         f'уникальных словоформ: {manifest["unique_words"]}.\n\n'
         'Исследование по статусам:\n\n' + ''.join(f'- {k}: {v}\n' for k, v in sorted(status.items())) +
+        '\nМорфологический профиль QAC v0.4: 77 429 слов, 4 832 леммы. Подробности: `RECOUNT.md`.\n'
         '\nАвторитетное состояние: отдельные JSON в `data/words/`. Очередь и таблицы пересобираются из них.\n', encoding='utf-8')
     return status
 

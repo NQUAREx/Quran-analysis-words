@@ -1,0 +1,56 @@
+{
+  "accessed": "2026-10-09",
+  "facts": [
+    {
+      "id": "earth_year_nasa",
+      "publisher": "NASA Science",
+      "title": "Earth Facts",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "section": "Quick Facts",
+      "excerpt_original": "Length of Year 365.25 days",
+      "meaning_ru": "Длина земного года около 365,25 суток",
+      "page_sha256_at_access": "4b13f71ac69ad67c2d63b08c6a212074f4d05472e9fa2fb20b55ff1e29055343"
+    },
+    {
+      "id": "islamic_calendar_months",
+      "publisher": "timeanddate.com",
+      "title": "The Islamic Calendar",
+      "url": "https://www.timeanddate.com/calendar/islamic-calendar.html",
+      "section": "Calendar Structure",
+      "excerpt_original": "The Islamic calendar has 12 months with 29 or 30 days.",
+      "meaning_ru": "В исламском календаре 12 месяцев по 29 или 30 дней",
+      "page_sha256_at_access": "4b9404d8c9508d331d9690a5bd4d30ab4ab1d040a927a826f6453aaed7657584"
+    },
+    {
+      "id": "moon_orbit_nasa_rounded",
+      "publisher": "NASA Science",
+      "title": "Moon Facts",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "section": "Orbit and Rotation",
+      "excerpt_original": "The Moon makes a complete orbit around Earth in 27 Earth days and rotates or spins at that same rate",
+      "meaning_ru": "Оборот Луны вокруг Земли округлён до 27 земных суток",
+      "page_sha256_at_access": "c9968c79e49c4696217dd1fe060b40cc881767ba203ac258814be4d546ca634d"
+    },
+    {
+      "id": "sidereal_month_britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "title": "Sidereal month",
+      "url": "https://www.britannica.com/science/sidereal-month",
+      "section": "Definition",
+      "excerpt_original": "the time needed for the Moon to return to the same place against the background of the stars, 27.321661 days",
+      "meaning_ru": "Сидерический месяц длится 27,321661 суток",
+      "page_sha256_at_access": "0ec4f5edb22b3fb65b982ea8e2ce99aaccd39ed5ce79183d44ba2b994bb4085d"
+    },
+    {
+      "id": "moon_27_prior_art",
+      "publisher": "Quran Miracles",
+      "title": "THE MOON",
+      "url": "https://www.quranmiracles.com/2011/03/the-moon/",
+      "section": "Article text and publication metadata",
+      "published": "2011-03-22",
+      "excerpt_original": "The word moon (Qamar), together with its derivatives, is used exactly 27 times in the Quran. This number is equal to the number the moon completes its ecliptic cycle; 27 days.",
+      "meaning_ru": "Та же числовая пара 27 упоминаний и 27 суток уже была опубликована; интерпретация автора не является независимым физическим доказательством",
+      "page_sha256_at_access": "7b4e7de4767e5029a377324e30048f506be1713e551341b5574f66f77253047a"
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "ambiguity": "Форма встречается в выражении شهر رمضان (2:185), как мера времени (34:12) и в ألف شهر (97:3).",
   "completed_steps": [
     "Проверены все 4 вхождения: 2:185, два в 34:12 и 97:3.",
-    "Проверена структура исламского календаря во внешнем источнике."
+    "Проверена структура исламского календаря во внешнем источнике.",
+    "Повторный подсчёт по QAC: 21 все числа, 12 единственное, 7 множественное, 2 двойственное."
   ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [
@@ -22,6 +23,12 @@
       "external_value": 12,
       "observed_frequency": 4,
       "result": "не совпало"
+    },
+    {
+      "evidence_file": "data/morphology_audit.json",
+      "id": "qac_month_recount",
+      "profile": "QAC v0.4",
+      "result": "Повторный подсчёт по QAC: 21 все числа, 12 единственное, 7 множественное, 2 двойственное."
     }
   ],
   "meaning_source": null,
@@ -32,7 +39,7 @@
   "occurrences": "data/occurrences.csv#word_id=bbcf7363a1f288c73c33d4510511e7926c08cea6d6cbcdf545f9441ec6666d9f",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 2,
+  "record_version": 3,
   "research_status": "Соответствие не воспроизведено",
   "sources": [
     {
@@ -44,8 +51,8 @@
       "url": "https://www.timeanddate.com/calendar/islamic-calendar.html"
     }
   ],
-  "third_column": "Соответствие не воспроизведено. Форма شهر встречается 4 раза, а исламский календарь содержит 12 месяцев (https://www.timeanddate.com/calendar/islamic-calendar.html, раздел Calendar Structure). Это календарное соглашение; другие формы не включены.",
-  "updated_at": "2026-10-09T11:36:35+00:00",
+  "third_column": "Соответствие не воспроизведено для этой словоформы: شهر — 4. В отдельном профиле QAC лемма شهر имеет 12 форм единственного числа; это условное совпадение с 12 месяцами исламского календаря (https://www.timeanddate.com/calendar/islamic-calendar.html). Все числа леммы вместе дают 21; см. RECOUNT.md.",
+  "updated_at": "2026-10-09T12:34:31+00:00",
   "word": "شهر",
   "word_id": "bbcf7363a1f288c73c33d4510511e7926c08cea6d6cbcdf545f9441ec6666d9f"
 }

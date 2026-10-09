@@ -1,0 +1,122 @@
+{
+  "candidates": [
+    {
+      "all_numbers_count": 21,
+      "count": 12,
+      "count_definition": "QAC lemma, masculine singular forms, including attached prefixes",
+      "external_fact": "12 months in the Islamic calendar",
+      "external_fact_id": "islamic_calendar_months",
+      "id": "qac_singular_months_12",
+      "lemma_arabic": "شهر",
+      "lemma_buckwalter": "$ahor",
+      "limitations": [
+        "Это отдельный лемматизированный профиль, а не частота формы شهر в основной таблице.",
+        "Сопоставление общеизвестно; новизна не заявляется."
+      ],
+      "qac_locations": [
+        "2:185:1",
+        "2:185:16",
+        "2:194:1",
+        "2:194:3",
+        "2:197:2",
+        "2:217:3",
+        "2:226:7",
+        "2:234:9",
+        "4:92:52",
+        "5:2:9",
+        "5:97:8",
+        "9:2:5",
+        "9:5:3",
+        "9:36:3",
+        "9:36:8",
+        "34:12:4",
+        "34:12:6",
+        "46:15:13",
+        "58:4:5",
+        "65:4:11",
+        "97:3:6"
+      ],
+      "status": "Условное/культурное соответствие",
+      "third_column_ru": "Условное/культурное соответствие. 12 форм единственного числа леммы شهر по QAC совпадают с 12 месяцами исламского календаря. Источник: https://www.timeanddate.com/calendar/islamic-calendar.html. Все числа леммы вместе дают 21; правило календаря условно, а 9:36 прямо называет 12 месяцев."
+    },
+    {
+      "absolute_difference_days": 0.321661,
+      "count": 27,
+      "count_definition": "All QAC lemma occurrences, including attached prefixes",
+      "external_fact": "Sidereal lunar orbital period 27.321661 Earth days",
+      "external_fact_ids": [
+        "moon_orbit_nasa_rounded",
+        "sidereal_month_britannica"
+      ],
+      "id": "qac_moon_27_sidereal_days",
+      "lemma_arabic": "قمر",
+      "lemma_buckwalter": "qamar",
+      "limitations": [
+        "Отличается от синодического месяца.",
+        "Источник NASA округляет физическое значение.",
+        "Кандидат обнаружен после просмотра частоты; множество проверок не ограничено.",
+        "Это соответствие публиковалось 22 марта 2011 года."
+      ],
+      "prior_publication_id": "moon_27_prior_art",
+      "qac_locations": [
+        "6:77:3",
+        "6:96:7",
+        "7:54:21",
+        "10:5:6",
+        "12:4:12",
+        "13:2:14",
+        "14:33:4",
+        "16:12:6",
+        "21:33:7",
+        "22:18:14",
+        "25:61:10",
+        "29:61:9",
+        "31:29:15",
+        "35:13:11",
+        "36:39:1",
+        "36:40:7",
+        "39:5:15",
+        "41:37:6",
+        "41:37:11",
+        "54:1:4",
+        "55:5:2",
+        "71:16:2",
+        "74:32:2",
+        "75:8:2",
+        "75:9:3",
+        "84:18:1",
+        "91:2:1"
+      ],
+      "relative_difference_percent": 1.177,
+      "status": "Приблизительное совпадение",
+      "third_column_ru": "Приблизительное совпадение. Лемма قمر встречается 27 раз; сидерический оборот Луны длится 27,321661 суток (https://www.britannica.com/science/sidereal-month), NASA округляет до 27 суток (https://science.nasa.gov/moon/facts/). Отклонение 1,18 %. Сопоставление опубликовано ранее (https://www.quranmiracles.com/2011/03/the-moon/, 2011); необычность не установлена."
+    }
+  ],
+  "profile": "Quranic Arabic Corpus v0.4, positional alignment to corpus SHA-256 295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
+  "rejected_or_unresolved": [
+    {
+      "claimed_count": 356,
+      "id": "day_356",
+      "lemma_buckwalter": "yawom",
+      "next_action": "Получить список 356 вхождений или точное правило включения и сравнить по позициям.",
+      "observed_profiles": {
+        "qac_day_then": 70,
+        "qac_lemma_all_numbers": 405,
+        "qac_lemma_all_plus_day_then": 475,
+        "qac_lemma_singular": 375,
+        "surface_form_yawm": 217
+      },
+      "status": "Не воспроизведено без правила включения"
+    },
+    {
+      "calculation": "375 QAC singular day forms - 10 possessive suffix forms (يومكم, يومهم) = 365",
+      "claimed_count": 365,
+      "id": "day_365",
+      "lemma_buckwalter": "yawom",
+      "limitation": "Притяжательный суффикс не меняет грамматическое число, поэтому это исключение не является единым правилом подсчёта единственного числа.",
+      "status": "Получается только при специальном исключении"
+    }
+  ],
+  "source_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+  "updated_at": "2026-10-09T12:39:40+00:00"
+}

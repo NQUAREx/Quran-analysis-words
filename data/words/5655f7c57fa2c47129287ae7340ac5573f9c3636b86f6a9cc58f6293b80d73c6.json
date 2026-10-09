@@ -1,22 +1,51 @@
 {
   "ambiguity": null,
-  "completed_steps": [],
+  "completed_steps": [
+    "Все вхождения сверены по POS QAC v0.4; проверена применимость внешнего количественного сравнения."
+  ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [],
   "frequency": 280,
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "hypotheses": [],
-  "meaning_source": null,
-  "meanings": [],
-  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "hypotheses": [
+    {
+      "id": "closed_class_external_quantity_screen",
+      "question": "Есть ли независимая измеримая внешняя величина, непосредственно определяемая этой грамматической функцией?",
+      "result": "Функции слова не задают фиксированного внешнего числа; числовой кандидат не сформулирован.",
+      "scope": "Все вхождения этой словоформы в основном профиле."
+    }
+  ],
+  "meaning_source": "Quranic Arabic Corpus v0.4, aligned by verse and position",
+  "meanings": [
+    "союз"
+  ],
+  "next_action": null,
   "occurrences": "data/occurrences.csv#word_id=5655f7c57fa2c47129287ae7340ac5573f9c3636b86f6a9cc58f6293b80d73c6",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 1,
-  "research_status": "Исследование не завершено",
-  "sources": [],
-  "third_column": "Исследование не завершено",
-  "updated_at": "2026-10-09T11:33:24+00:00",
+  "record_version": 2,
+  "research_status": "Проверяемое соответствие не найдено",
+  "sources": [
+    {
+      "local_alignment": "data/qac_alignment.csv",
+      "pos_counts": {
+        "CONJ": 280
+      },
+      "publisher": "Quranic Arabic Corpus, Kais Dukes",
+      "sample_locations": [
+        "2:19:1",
+        "2:74:9",
+        "2:106:5",
+        "2:106:10",
+        "2:111:9"
+      ],
+      "source_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "url": "https://corpus.quran.com/download/",
+      "version": "0.4"
+    }
+  ],
+  "third_column": "Проверяемое соответствие не найдено. Все 280 вхождений — служебные формы или местоимения по QAC v0.4 (союз; https://corpus.quran.com/download/). Их грамматическая функция не задаёт независимой измеримой величины для сравнения с частотой.",
+  "updated_at": "2026-10-09T12:36:09+00:00",
   "word": "أو",
   "word_id": "5655f7c57fa2c47129287ae7340ac5573f9c3636b86f6a9cc58f6293b80d73c6"
 }

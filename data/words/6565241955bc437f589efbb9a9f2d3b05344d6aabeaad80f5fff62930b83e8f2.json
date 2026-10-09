@@ -1,22 +1,56 @@
 {
-  "ambiguity": null,
-  "completed_steps": [],
+  "ambiguity": "Написание без огласовок объединяет служебные формы и глагол مَنَّ.",
+  "completed_steps": [
+    "Все 2763 вхождения распределены по POS QAC; четыре глагольных случая сверены с арабским текстом."
+  ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [],
   "frequency": 2763,
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "hypotheses": [],
-  "meaning_source": null,
-  "meanings": [],
-  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "hypotheses": [
+    {
+      "id": "single_referent_min",
+      "qac_pos_counts": {
+        "COND": 37,
+        "INTG": 13,
+        "P": 2366,
+        "REL": 343,
+        "V": 4
+      },
+      "question": "Можно ли сопоставить все 2763 употребления с одной внешней величиной?",
+      "result": "Нет единого референта: пять грамматических функций, включая четыре глагола."
+    }
+  ],
+  "meaning_source": "Quranic Arabic Corpus v0.4; сверено с контекстами Quran_text.txt",
+  "meanings": [
+    "предлог «из/от»",
+    "относительное «кто»",
+    "условное «кто бы»",
+    "вопросительное «кто?»",
+    "глагол «оказал милость»"
+  ],
+  "next_action": null,
   "occurrences": "data/occurrences.csv#word_id=6565241955bc437f589efbb9a9f2d3b05344d6aabeaad80f5fff62930b83e8f2",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 1,
-  "research_status": "Исследование не завершено",
-  "sources": [],
-  "third_column": "Исследование не завершено",
-  "updated_at": "2026-10-09T11:33:24+00:00",
+  "record_version": 2,
+  "research_status": "Проверяемое соответствие не найдено",
+  "sources": [
+    {
+      "publisher": "Quranic Arabic Corpus, Kais Dukes",
+      "source_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "url": "https://corpus.quran.com/download/",
+      "verb_locations": [
+        "3:164:2",
+        "6:53:7",
+        "12:90:11",
+        "28:82:18"
+      ],
+      "version": "0.4"
+    }
+  ],
+  "third_column": "Проверяемое соответствие не найдено. 2763 вхождения من объединяют предлог (2366), относительное местоимение (343), условное (37), вопросительное (13) и глагол مَنَّ (4; например, 3:164). Для этих разных значений единая внешняя количественная характеристика не определена. Разметка: https://corpus.quran.com/download/.",
+  "updated_at": "2026-10-09T12:38:17+00:00",
   "word": "من",
   "word_id": "6565241955bc437f589efbb9a9f2d3b05344d6aabeaad80f5fff62930b83e8f2"
 }

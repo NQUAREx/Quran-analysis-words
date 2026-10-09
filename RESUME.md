@@ -1,10 +1,12 @@
 # Продолжение работы
 
-1. `git pull` в этом репозитории и `python quran_words.py verify`.
+1. `git pull` в этом репозитории и `python quran_words.py verify && python qac_morphology.py`.
 2. `python quran_words.py status` и `cat PROJECT_STATE.md`. Фактический статус выводится из `data/words/*.json`, а не из сводки.
 3. Если экспорты отсутствуют или устарели: `python quran_words.py export`.
-4. Найти незавершённые элементы в `data/queue.json`, открыть соответствующую запись `data/words/<word_id>.json` и вхождения по `word_id` в `data/occurrences.csv`.
+4. Найти незавершённые элементы в `data/queue.json`, открыть соответствующую запись `data/words/<word_id>.json` и вхождения по `word_id` в `data/occurrences.csv`. Использовать `data/word_morphology_summary.csv` для проверки функций и лемм; `data/lemma_findings.json` хранит отдельные морфологические гипотезы.
 5. После проверки конкретного слова атомарно сохранить его JSON (временный файл → `os.replace`), затем `python quran_words.py export` и `python quran_words.py verify`. Не менять `frequency`, `frequency_version` и идентификатор.
 6. Commit и push проверенных изменений в ветку GitHub. Последняя внешняя контрольная точка — последний успешно отправленный commit; локальные правки после него могут быть утрачены.
 
 Повторный `python quran_words.py build` безопасен при неизменном корпусе и профиле: существующие записи не перезаписываются, частоты не нарастают. Если корпус или правила изменены, создайте новый профиль и набор записей; скрипт остановится при несовместимом манифесте.
+
+`python research_function_words.py` и `python research_homograph_min.py` идемпотентно обрабатывают уже проверенные служебные формы и омоним `من`. Для новых содержательных слов сохраняйте проверенные источники и ограничения в индивидуальной JSON-записи сразу после исследования. В `RECOUNT.md` описан спорный подсчёт 356 для «дня»; ждём правило или список вхождений для прямого сравнения.
