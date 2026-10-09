@@ -180,11 +180,20 @@ def build():
         writer.writerow(['Словоформа с огласовками (NFC)', 'Количество', 'Словоформа без огласовок', 'word_id'])
         for (plain, vocal), n in sorted(vocal_counts.items(), key=lambda x: (-x[1], x[0])):
             writer.writerow([vocal, n, plain, identity(sha, plain)])
+    with (DATA / 'unnumbered_initial_basmalas.csv').open('w', encoding='utf-8', newline='') as handle:
+        writer = csv.writer(handle)
+        writer.writerow(['sura', 'source_ayah', 'source_position', 'source_token', 'vocalized_nfc', 'unvocalized_nfc'])
+        for sura, ayah, source_text in verses:
+            if ayah == 1 and sura in basmalas:
+                for pos, token in enumerate(source_text.split()[:4], 1):
+                    vocal, plain = normalize(token)
+                    writer.writerow([sura, ayah, pos, token, vocal, plain])
     manifest = {
         'corpus_file': 'Quran_text.txt', 'corpus_sha256': sha, 'corpus_bytes': len(raw),
         'profile_id': PROFILE, 'vocalized_profile_id': VOCAL_PROFILE,
         'frequency_version': freq_version, 'numbered_verses': len(verses), 'suras': len(by_sura),
         'unnumbered_initial_basmalas_excluded': len(basmalas),
+        'unnumbered_initial_basmala_tokens_excluded': 4 * len(basmalas),
         'unnumbered_initial_basmalas_suras': basmalas,
         'token_count': len(records), 'unique_words': len(counts),
         'unique_vocalized_forms': len(vocal_counts), 'generated_at': now(),
@@ -286,6 +295,11 @@ def verify():
     assert all(indexed[w['word_id']] == w['frequency'] for w in words)
     assert sum(w['frequency'] for w in words) == manifest['token_count']
     assert digest((DATA / 'occurrences.csv').read_bytes()) == manifest['occurrences_sha256']
+    with (DATA / 'unnumbered_initial_basmalas.csv').open(encoding='utf-8', newline='') as handle:
+        extra = list(csv.DictReader(handle))
+    assert len(extra) == manifest['unnumbered_initial_basmala_tokens_excluded'] == 448
+    assert len({(int(r['sura']), int(r['source_position'])) for r in extra}) == 448
+    assert all(source_verses[(int(r['sura']), 1)][int(r['source_position']) - 1] == r['source_token'] for r in extra)
     return {'words': len(words), 'tokens': len(positions), 'verses': len(verse_counts)}
 
 

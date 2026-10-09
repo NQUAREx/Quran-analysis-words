@@ -3,7 +3,7 @@
   "corpus_file": "Quran_text.txt",
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "generated_at": "2026-10-09T11:37:05+00:00",
+  "generated_at": "2026-10-09T11:38:19+00:00",
   "independent_count_verified": true,
   "numbered_verses": 6236,
   "occurrences_sha256": "7fb812a8ec92886c30145f70a36e54a16b398c6f580c5e65a3da6c1e0a6d19eb",
@@ -12,6 +12,7 @@
   "token_count": 77800,
   "unique_vocalized_forms": 18242,
   "unique_words": 14868,
+  "unnumbered_initial_basmala_tokens_excluded": 448,
   "unnumbered_initial_basmalas_excluded": 112,
   "unnumbered_initial_basmalas_suras": [
     2,
