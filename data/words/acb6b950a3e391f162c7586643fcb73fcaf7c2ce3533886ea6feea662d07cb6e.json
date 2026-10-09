@@ -1,22 +1,47 @@
 {
   "ambiguity": null,
-  "completed_steps": [],
+  "completed_steps": [
+    "Все вхождения формы сопоставлены с леммой собственного имени QAC; проверена применимость независимого количественного сравнения."
+  ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [],
   "frequency": 6,
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "hypotheses": [],
-  "meaning_source": null,
-  "meanings": [],
-  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "hypotheses": [
+    {
+      "id": "divine_name_empirical_number",
+      "question": "Существует ли независимо измеряемое число, заданное самим референтом имени?",
+      "result": "У религиозного собственного имени нет установленной эмпирической числовой величины для сравнения с частотой написания. Символические системы требуют отдельного явного определения."
+    }
+  ],
+  "meaning_source": "Quranic Arabic Corpus v0.4; собственное имя (PN), лемма {ll~ah",
+  "meanings": [
+    "имя Бога в кораническом тексте; приставки остаются частью словоформы"
+  ],
+  "next_action": null,
   "occurrences": "data/occurrences.csv#word_id=acb6b950a3e391f162c7586643fcb73fcaf7c2ce3533886ea6feea662d07cb6e",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 1,
-  "research_status": "Исследование не завершено",
-  "sources": [],
-  "third_column": "Исследование не завершено",
-  "updated_at": "2026-10-09T11:33:25+00:00",
+  "record_version": 2,
+  "research_status": "Проверяемое соответствие не найдено",
+  "sources": [
+    {
+      "publisher": "Quranic Arabic Corpus, Kais Dukes",
+      "qac_lemma": "{ll~ah",
+      "sample_locations": [
+        "2:113:23",
+        "4:135:20",
+        "4:141:25",
+        "9:13:14",
+        "12:64:12"
+      ],
+      "source_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "url": "https://corpus.quran.com/download/",
+      "version": "0.4"
+    }
+  ],
+  "third_column": "Проверяемое соответствие не найдено. Все 6 вхождений формы فالله относятся к имени Бога по QAC v0.4 (https://corpus.quran.com/download/). Для религиозного имени нет независимо измеряемой физической величины, которую определяет эта частота; символическую интерпретацию нужно задавать отдельно.",
+  "updated_at": "2026-10-09T12:42:30+00:00",
   "word": "فالله",
   "word_id": "acb6b950a3e391f162c7586643fcb73fcaf7c2ce3533886ea6feea662d07cb6e"
 }

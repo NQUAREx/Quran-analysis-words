@@ -1,22 +1,47 @@
 {
   "ambiguity": null,
-  "completed_steps": [],
+  "completed_steps": [
+    "Все вхождения формы сопоставлены с временной леммой QAC и проверена применимость календарного сравнения."
+  ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [],
   "frequency": 5,
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "hypotheses": [],
-  "meaning_source": null,
-  "meanings": [],
-  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "hypotheses": [
+    {
+      "external_value": 365.25,
+      "id": "days_per_earth_year",
+      "observed_frequency": 5,
+      "result": "не совпало",
+      "unit": "суток"
+    }
+  ],
+  "meaning_source": "Quranic Arabic Corpus v0.4, positional alignment",
+  "meanings": [
+    "день"
+  ],
+  "next_action": null,
   "occurrences": "data/occurrences.csv#word_id=b8ea06364a142ec1cc5f7a6ffe74bb84a34226750355d0255c36e3566de9c146",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 1,
-  "research_status": "Исследование не завершено",
-  "sources": [],
-  "third_column": "Исследование не завершено",
-  "updated_at": "2026-10-09T11:33:28+00:00",
+  "record_version": 2,
+  "research_status": "Соответствие не воспроизведено",
+  "sources": [
+    {
+      "excerpt": "Length of Year 365.25 days",
+      "publisher": "NASA Science",
+      "section": "Quick Facts",
+      "url": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "publisher": "Quranic Arabic Corpus",
+      "qac_lemma": "yawom",
+      "url": "https://corpus.quran.com/download/",
+      "version": "0.4"
+    }
+  ],
+  "third_column": "Соответствие не воспроизведено. 5 вхождений формы يومهم не равны 365,25 суткам земного года (NASA: https://science.nasa.gov/earth/facts/). Форма относится к лемме يوم по QAC; объединять её с другими формами можно только в отдельном профиле (RECOUNT.md).",
+  "updated_at": "2026-10-09T12:43:19+00:00",
   "word": "يومهم",
   "word_id": "b8ea06364a142ec1cc5f7a6ffe74bb84a34226750355d0255c36e3566de9c146"
 }

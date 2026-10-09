@@ -1,22 +1,38 @@
 {
   "ambiguity": null,
-  "completed_steps": [],
+  "completed_steps": [
+    "Все вхождения формы сопоставлены с временной леммой QAC и проверена применимость календарного сравнения."
+  ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [],
   "frequency": 65,
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "hypotheses": [],
-  "meaning_source": null,
-  "meanings": [],
-  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "hypotheses": [
+    {
+      "id": "deictic_day_external_value",
+      "result": "Независимая внешняя количественная величина для данного указательного выражения не определена."
+    }
+  ],
+  "meaning_source": "Quranic Arabic Corpus v0.4, positional alignment",
+  "meanings": [
+    "в тот день"
+  ],
+  "next_action": null,
   "occurrences": "data/occurrences.csv#word_id=eda4adfb341b8c267cb43ea1e28acc8b8a883c645c1159260e610364df6ffb89",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 1,
-  "research_status": "Исследование не завершено",
-  "sources": [],
-  "third_column": "Исследование не завершено",
-  "updated_at": "2026-10-09T11:33:26+00:00",
+  "record_version": 2,
+  "research_status": "Проверяемое соответствие не найдено",
+  "sources": [
+    {
+      "publisher": "Quranic Arabic Corpus",
+      "qac_lemma": "yawoma}i*",
+      "url": "https://corpus.quran.com/download/",
+      "version": "0.4"
+    }
+  ],
+  "third_column": "Проверяемое соответствие не найдено. Все 65 вхождений يومئذ выражают «в тот день» по отдельной лемме QAC; указательный эсхатологический или повествовательный контекст не определяет независимого количества суток в реальном мире. Разметка: https://corpus.quran.com/download/.",
+  "updated_at": "2026-10-09T12:43:19+00:00",
   "word": "يومئذ",
   "word_id": "eda4adfb341b8c267cb43ea1e28acc8b8a883c645c1159260e610364df6ffb89"
 }

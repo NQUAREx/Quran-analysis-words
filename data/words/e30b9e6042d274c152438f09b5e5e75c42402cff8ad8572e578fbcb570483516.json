@@ -1,22 +1,47 @@
 {
   "ambiguity": null,
-  "completed_steps": [],
+  "completed_steps": [
+    "Все вхождения формы сопоставлены с временной леммой QAC и проверена применимость календарного сравнения."
+  ],
   "corpus_sha256": "295faa755008d0a292d2e285368a06dc478bf37cb5f29ed29bb06d7c6ca0bf0a",
   "external_facts": [],
   "frequency": 2,
   "frequency_version": "eb31b4a81557248319671af4727662f4c8a62465e9e36294dce5a6f11dbcc3b5",
-  "hypotheses": [],
-  "meaning_source": null,
-  "meanings": [],
-  "next_action": "Проверить значение и контексты; затем применить протокол поиска.",
+  "hypotheses": [
+    {
+      "external_value": 12,
+      "id": "months_per_islamic_year",
+      "observed_frequency": 2,
+      "result": "не совпало",
+      "unit": "месяцев"
+    }
+  ],
+  "meaning_source": "Quranic Arabic Corpus v0.4, positional alignment",
+  "meanings": [
+    "месяц"
+  ],
+  "next_action": null,
   "occurrences": "data/occurrences.csv#word_id=e30b9e6042d274c152438f09b5e5e75c42402cff8ad8572e578fbcb570483516",
   "open_questions": [],
   "profile_id": "unvocalized_nfc_v1_numbered_verses",
-  "record_version": 1,
-  "research_status": "Исследование не завершено",
-  "sources": [],
-  "third_column": "Исследование не завершено",
-  "updated_at": "2026-10-09T11:33:26+00:00",
+  "record_version": 2,
+  "research_status": "Соответствие не воспроизведено",
+  "sources": [
+    {
+      "excerpt": "The Islamic calendar has 12 months with 29 or 30 days.",
+      "publisher": "timeanddate.com",
+      "section": "Calendar Structure",
+      "url": "https://www.timeanddate.com/calendar/islamic-calendar.html"
+    },
+    {
+      "publisher": "Quranic Arabic Corpus",
+      "qac_lemma": "$ahor",
+      "url": "https://corpus.quran.com/download/",
+      "version": "0.4"
+    }
+  ],
+  "third_column": "Соответствие не воспроизведено для формы شهرين: 2 вхождений против 12 месяцев исламского календаря (https://www.timeanddate.com/calendar/islamic-calendar.html). В отдельном профиле QAC 12 имеет вся лемма شهر в единственном числе; см. RECOUNT.md.",
+  "updated_at": "2026-10-09T12:43:19+00:00",
   "word": "شهرين",
   "word_id": "e30b9e6042d274c152438f09b5e5e75c42402cff8ad8572e578fbcb570483516"
 }
